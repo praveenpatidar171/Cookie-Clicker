@@ -7,7 +7,7 @@ const PlayerStats = () => {
         <div className='flex flex-col justify-around border border-gray-200 shadow-lg rounded-xl p-8'>
             <div className='relative'>
                 <div className='absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 blur-2xl opacity-50 -z-10 '> </div>
-                <h1 className='relative text-5xl font-medium'>Keep Clicking, Keep Winning! 🏆</h1>
+                <h1 className='relative text-center text-2xl sm:text-3xl md:text-5xl font-medium'>Keep Clicking, Keep Winning! 🏆</h1>
             </div>
             <div className='flex items-center justify-center h-80'>
                 <div className='flex flex-col gap-4'>

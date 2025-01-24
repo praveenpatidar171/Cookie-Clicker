@@ -9,7 +9,13 @@ const GamePage = () => {
     return (
         <div >
             <NavBar />
-            <div className="max-w-7xl justify-between mx-auto my-20 flex">
+            <div className="hidden md:block">
+                <div className="max-w-7xl flex justify-between mx-auto my-20">
+                    <CookieImage />
+                    <PlayerStats />
+                </div>
+            </div>
+            <div className="md:hidden max-w-7xl flex flex-col gap-10 mx-auto my-20">
                 <CookieImage />
                 <PlayerStats />
             </div>

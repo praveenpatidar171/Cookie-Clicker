@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import GamePage from "./components/GamePage"
 import SignIn from "./components/SignIn"
 import SignUp from "./components/SignUp"
+import { ProtectedRoute } from "./components/ProtectedRoute"
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     [
       {
         path: '/',
-        element: <GamePage />
+        element: <ProtectedRoute> <GamePage /></ProtectedRoute>
       },
       {
         path: '/signin',
