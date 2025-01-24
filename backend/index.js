@@ -20,7 +20,7 @@ const _dirname = path.resolve();
 
 app.use(cors(
     {
-        origin: "http://127.0.0.1:5173",
+        origin: "https://cookie-clicker-yuhf.onrender.com",
         credentials: true,
     }
 ));
